@@ -43,6 +43,8 @@ db.collection_name.drop();
 // shows all collections in the database
 show collections 
 
+//Every MongoDB document has a "_id" field
+
 // Insert record into the collection customers
 db.customers.insert(
 	{
